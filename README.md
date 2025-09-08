@@ -78,6 +78,8 @@ git clone <repo-url>
 cd weather-now
 npm install
 npm start
+```
+---
 
 ## ✅ Test Cases
 
@@ -95,6 +97,7 @@ npm start
 - Each case ensures the app handles **user errors** and **network issues** gracefully.  
 - UI remains responsive across **mobile, tablet, and desktop**.  
 - 📂 UI screenshots for different devices are available in the [`differentdevices/`](./differentdevices) folder.  
+
 
 
 
