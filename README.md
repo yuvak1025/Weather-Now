@@ -91,12 +91,13 @@ npm start
 | **No internet**  | Shows error: `"Unable to fetch weather. Check your internet and try again."`   |
 | **Loading state**| Shows `"Fetching weather..."` before results appear                            |
 
-📂 You can check detailed screenshots and results in the [`testing/`](./testing) folder.
+📂 You can check detailed screenshots and results in the [`Testing/`](./Testing) folder.
 
 ## 🧪 Notes
 - Each case ensures the app handles **user errors** and **network issues** gracefully.  
 - UI remains responsive across **mobile, tablet, and desktop**.  
 - 📂 UI screenshots for different devices are available in the [`differentdevices/`](./differentdevices) folder.  
+
 
 
 
