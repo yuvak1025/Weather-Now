@@ -67,6 +67,23 @@ The app fetches latitude and longitude of the city using the **Open-Meteo Geocod
 - │── package.json
 - │── tailwind.config.js
 
+# 🌦️ Weather Now
+
+A responsive React application that fetches and displays real-time weather information using an external weather API.
+
+---
+
+## ⚙️ Installation and Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone <repo-url>
+cd weather-now
+npm install
+npm start
+
+
 
 
 
