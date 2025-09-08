@@ -66,7 +66,8 @@ The app fetches latitude and longitude of the city using the **Open-Meteo Geocod
 - │
 - │── package.json
 - │── tailwind.config.js
-
+- │── differentdevices
+- │── Testing
 ---
 
 ## ⚙️ Installation and Setup
@@ -100,7 +101,28 @@ npm start
 
 
 
+## Deployment
 
+The **Weather Now** application is deployed on **Render** and can be accessed live here:  
+
+👉 [Weather Now on Render](https://weather-now-teix.onrender.com)  
+
+### Deployment Steps on Render:
+1. Push your project to a **GitHub repository**.  
+2. Go to [Render Dashboard](https://render.com) and log in.  
+3. Click **New Web Service** → Connect your GitHub repo.  
+4. Choose:
+   - **Environment:** Node  
+   - **Build Command:**  
+     ```bash
+     npm install && npm run build
+     ```  
+   - **Start Command:**  
+     ```bash
+     npm start
+     ```  
+5. Click **Deploy**. Render will build and host your React app.  
+6. Once deployed, your app will be accessible via the Render-provided URL.  
 
 
 
