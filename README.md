@@ -83,6 +83,21 @@ cd weather-now
 npm install
 npm start
 
+## ✅ Test Cases
+
+| Test Case       | Expected Result                                                                 |
+|-----------------|---------------------------------------------------------------------------------|
+| **Valid city**   | Displays city, temperature, windspeed, and weather description                 |
+| **Invalid city** | Shows error: `"City not found. Please try another."`                           |
+| **Empty input**  | Shows error: `"Please enter a city name."`                                     |
+| **No internet**  | Shows error: `"Unable to fetch weather. Check your internet and try again."`   |
+| **Loading state**| Shows `"Fetching weather..."` before results appear                            |
+
+📂 You can check detailed screenshots and results in the [`testing/`](./testing) folder.
+
+
+
+
 
 
 
